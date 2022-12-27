@@ -1,0 +1,20 @@
+import React from 'react';
+import './product.css'
+
+const Product = (props) => {
+    // console.log(props.addToCart)
+    const {id, img, name, price, seller, ratings } = props.product
+    
+    return (
+        <div className='product-cart'>
+            <img src={img} alt="" />
+            <p className='name'>{name}</p>
+            <p className='price'>Price: ${price}</p>
+            <p className='manufactuter'>Manufacturer: {seller}</p>
+            <p className='rating'>Rating: {ratings} star</p>
+            <button onClick={() => props.addToCart(props.product)}>Add to Cart</button>
+        </div>
+    );
+};
+
+export default Product;
