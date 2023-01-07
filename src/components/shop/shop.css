@@ -10,9 +10,14 @@
     gap: 45px;
     margin: 200px 104px 0px 104px; 
 }
+.cart-container{
+    background-color: #FFE0B3;
+    padding: 10px;
+}
 @media screen and (max-width:1364px) {
     .products-info{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin-right: 50px;
     }
 }

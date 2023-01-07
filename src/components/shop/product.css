@@ -58,4 +58,11 @@
     background: #FFE0B3;
     border: 1px solid #95A0A7;
     border-radius: 0px 0px 8px 8px;
+    cursor: pointer;
+}
+.product-cart button:hover{
+    background-color: orange;
+}
+.product-cart .cart-icon{
+    margin-left: 10px;
 }
