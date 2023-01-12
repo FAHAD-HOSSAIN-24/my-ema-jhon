@@ -1,0 +1,115 @@
+.login-card {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.login-title {
+    height: 42px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 415px;
+    height: 20px;
+    font-weight: 400px;
+    font-size: 17px;
+    color: #2A414F;
+}
+
+.input-group input {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    font-size: 25px;
+
+}
+
+.submit-btn input {
+    width: 421px;
+    height: 55px;
+    border: none;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    margin-top: 44px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+    cursor: pointer;
+}
+.submit-btn input:hover{
+    background: rgba(255, 153, 0, 0.5);
+}
+
+.login-msg {
+    margin-top: 9px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+}
+
+.login-msg a {
+    text-decoration: none;
+    color: #FF9900;
+}
+.login-msg a:hover{
+    color: rgb(109, 71, 2)
+}
+
+.or-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 354px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.line-side {
+    width: 145px;
+    height: 0px;
+    border: 1px solid #95A0A7;
+}
+.or{
+    font-size: 17px;
+    color: #95A0A7;
+}
+.continue-with-google{
+    width: 417px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.continue-with-google:hover{
+    border: 1px solid #FF9900;
+}
+.google-text{
+    color: #2A414F;
+    margin-top: 15px;
+}
